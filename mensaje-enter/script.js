@@ -5,8 +5,17 @@ tarea.addEventListener("keydown", function(event) {
 
     if (event.key === "Enter") {
 
-        resultado.textContent = "Nueva tarea: " + tarea.value;
+        if (tarea.value.trim() !== "") {
 
-        tarea.value = "";
+            let nuevaTarea = document.createElement("p");
+
+            nuevaTarea.textContent = "Nueva Tarea: " + tarea.value;
+
+            resultado.appendChild(nuevaTarea);
+
+            tarea.value = "";
+
+
+        }
     }
 })
