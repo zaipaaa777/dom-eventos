@@ -1,0 +1,36 @@
+body {
+
+    background-color:rgb(100, 100, 98);
+    text-align: center;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.tarjeta {
+    
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+}
+
+h1 {
+
+    color: blue;
+    
+}
+
+input {
+
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(17, 22, 174, 0.2);
+    padding: 10px;
+}
+
